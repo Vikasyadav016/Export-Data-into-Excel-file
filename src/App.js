@@ -1,0 +1,19 @@
+import logo from './logo.svg';
+import './App.css';
+import ExportDataIntoExcel from './Components/ExportDataIntoExcel';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+       <ExportDataIntoExcel />
+      </header>
+    </div>
+  );
+}
+
+export default App;
